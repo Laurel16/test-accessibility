@@ -15,4 +15,4 @@ jobs:
         name: report
         path: './report'
     - name: Adding markdown
-      run: echo '### Hello world! :rocket:' >> $GITHUB_STEP_SUMMARY
+      run: echo '### Hello world!! :rocket:' >> $GITHUB_STEP_SUMMARY

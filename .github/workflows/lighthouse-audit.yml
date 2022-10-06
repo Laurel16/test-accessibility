@@ -8,7 +8,7 @@ jobs:
     - name: Audit live URL
       uses: jakejarvis/lighthouse-action@master
       with:
-        url: 'https://jarv.is/'
+        ref: ${{ github.event.pull_request.head.sha }}
     - name: Upload results as an artifact
       uses: actions/upload-artifact@master
       with:

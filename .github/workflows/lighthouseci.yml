@@ -1,5 +1,5 @@
 
-name: lighthouseci
+name: lighthouse
 on: [push, pull_request]
 jobs:
   lighthouseci:
@@ -16,5 +16,4 @@ jobs:
         with:
           name: report
           path: './report'
-    - name: Adding markdown
-      run: echo '### lighthouse report! :rocket:' >> $GITHUB_STEP_SUMMARY
+   
